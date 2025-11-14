@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import TodoItem from "./TodoItem.jsx";
 export default function Todo() {
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
@@ -23,8 +23,8 @@ export default function Todo() {
           Add
         </button>
         <ul>
-          {todos.map((todoitems) => (
-            <li key={todoitems}>{todoitems}</li>
+          {todos.map((items) => (
+            <TodoItem key={items} item={items} />
           ))}
         </ul>
       </form>
