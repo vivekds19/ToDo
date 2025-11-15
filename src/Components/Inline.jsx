@@ -1,11 +1,10 @@
 import React from "react";
-const header={ color:"blue", fontSize:'140px', fontFamily:'Times New Roman' }
-
+import "../CSS/Style.css";
 
 export default function Inline() {
   return (
     <div>
-      <h1 style={header}>Inline Component</h1>
+      <h1 className="header">To-DO List</h1>
     </div>
   );
 }
