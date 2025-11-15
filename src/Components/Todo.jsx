@@ -6,11 +6,14 @@ import TodoItem from "./TodoItem.jsx";
 export default function Todo() {
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
+
+
   function AddTodo(e) {
     e.preventDefault();
     setTodos([...todos, todo]);
     setTodo("");
   }
+  
   return (
     <div>
       <form>
