@@ -24,9 +24,7 @@ export default function TodoItem({ item, todos, setTodos }) {
         <button
           onClick={() => handleDelete(item.name)}
           className={style.delete}
-        >
-          x
-        </button>
+        > x</button>
       </div>
       <hr className={style.line} />
     </div>
