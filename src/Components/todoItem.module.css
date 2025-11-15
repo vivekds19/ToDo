@@ -1,0 +1,30 @@
+.todoitem{
+  width: 400px;
+  color: black;
+  font-size: 20px;
+  margin: 0 auto;
+
+}
+.itemName{
+  font-weight: bold;
+  padding: 20PX;
+   
+}
+.line{
+  border: 1px solid #f0f0f0;
+}
+
+.delete{
+  background-color: darkslateblue;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  float: right;
+  cursor: pointer;
+  margin-top: -5px;
+  border-radius: 4px;
+}
+.completed
+{
+  text-decoration: line-through;
+}
