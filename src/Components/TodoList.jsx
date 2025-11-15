@@ -4,8 +4,7 @@ import style from "./todolist.module.css";
 
 export default function TodoList({ todos, setTodos }) {
   const sortedTodos = todos
-    .slice()
-    .sort((a, b) => Number(a.completed) - Number(b.completed));
+    .slice().sort((a, b) => Number(a.completed) - Number(b.completed));
 
   return (
     <div className={style.todolist}>
